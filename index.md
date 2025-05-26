@@ -1,12 +1,12 @@
 # 🏳️‍🌈 About Queer Waves
 
-**Queer Waves** is a German speech corpus designed to support the development of equitable and inclusive speech technologies. It features approximately **335 hours of spontaneous speech** from over **400 self-identified LGBTQIA+ speakers**, collected from podcasts and YouTube content. The dataset spans a wide range of **gender identities, sexual orientations, ages (18–86) from speakers all over Germany and Austria**. 
+**Queer Waves** is a German speech dataset designed to support the development of equitable and inclusive speech technologies. It features approximately **335 hours of spontaneous speech** from over **400 self-identified LGBTQIA+ speakers**, collected from podcasts and YouTube content. The dataset spans a wide range of **gender identities, sexual orientations, ages (18–86) from speakers all over Germany and Austria**. 
 
 The data collection a strong emphasis on **ethical and legal safeguards**, especially in handling sensitive personal data. By expanding the diversity of voices in speech technology, Queer Waves contributes to building **fairer and more representative AI systems**.
 
-## 📊 Corpus Statistics
+## 📊 Dataset Statistics
 
-Below you find visual insights into the distribution of gender identities, sexual orientations, speaker age, and episode durations in the Queer Waves corpus.
+Below you find visual insights into the distribution of gender identities, sexual orientations, speaker age, and episode durations in the Queer Waves dataset.
 
 <div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: space-between;">
 
@@ -39,7 +39,7 @@ Below you find visual insights into the distribution of gender identities, sexua
 
 
 ## 🎙️ Podcast and Youtube Sources
-The following podcasts were included in the creation of the Queer Waves corpus. Where noted, only episodes up to a specific date were used. All content was carefully selected for linguistic and identity diversity and features self-identified LGBTQIA+ speakers.
+The following podcasts were included in the creation of the Queer Waves dataset. Where noted, only episodes up to a specific date were used. All content was carefully selected for linguistic and identity diversity and features self-identified LGBTQIA+ speakers.
 
 | **Podcast Title**                             | **Selection Status**      |
 |----------------------------------------------|----------------------------|
@@ -57,7 +57,7 @@ The following podcasts were included in the creation of the Queer Waves corpus. 
 | SPUTNIK Pride                                 | Until 2024-11-08           |
 | Willkommen im Club                            | Until 2024-11-20           |
 
-> Dates reflect the latest episode included from each feed at the time of corpus extraction.
+> Dates reflect the latest episode included from each feed at the time of dataset extraction.
 
 ## 🔧 Processing Pipeline
 - **Collection**: Curated podcast selection using [podcast-dl](https://github.com/lightpohl/podcast-dl)
@@ -78,7 +78,7 @@ We provide:
 
 > ⚠️ The full dataset is only available **on request** for non-commercial academic use.
 
-## 📊 Corpus Statistics
+## 📊 Dataset Statistics
 - **Total Audio**: 335 hours
 - **Speakers**: 400+
 - **Episodes**: XXX
@@ -113,13 +113,12 @@ We provide:
 
 ## 📄 License
 - Website & Documentation: **CC BY-NC 4.0**
-- Corpus Data: Available only under a **research-only usage agreement**
+- Dataset: Available only under a **research-only usage agreement**
 
 ## 📚 How to Cite
 > Siegert, I., & Mustermann, A. (2025). *Queer German Podcast Corpus (QDPC)*. Zenodo. DOI: 10.5281/zenodo.1234567
 
 ## 👥 Authors
 - **Ingo Siegert** 
-- **Sven Grawunder**
 - **Jan Marquenie** 
-- **Taylor Kim**
+- **Sven Grawunder**
