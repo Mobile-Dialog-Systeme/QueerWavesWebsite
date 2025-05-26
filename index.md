@@ -1,7 +1,8 @@
-# Queer Waves
+# 🏳️‍🌈 About Queer Waves
 
-Welcome to the official website of Queer Waves Corpus, a German Speech Dataset Capturing Gender and Sexual Diversity from Podcasts and YouTube
-German-language podcasts.
+**Queer Waves** is a German speech corpus designed to support the development of equitable and inclusive speech technologies. It features approximately **335 hours of spontaneous speech** from over **400 self-identified LGBTQIA+ speakers**, collected from podcasts and YouTube content. The dataset spans a wide range of **gender identities, sexual orientations, ages (18–86) from speakers all over Germany and Austria**. 
+
+The data collection a strong emphasis on **ethical and legal safeguards**, especially in handling sensitive personal data. By expanding the diversity of voices in speech technology, Queer Waves contributes to building **fairer and more representative AI systems**.
 
 ## 🎙️ Podcast and Youtube Sources
 The corpus includes over 350 hours of audio from 400+ self-identified LGBTQIA+ speakers, spanning ages from 18 to 86 years from all over Germany and Austria.
