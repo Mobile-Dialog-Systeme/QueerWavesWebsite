@@ -13,7 +13,6 @@ The following podcasts were included in the creation of the Queer Waves corpus. 
 | BBQ – Der Black Brown Queere Podcast         | Complete                   |
 | Bootycall                                     | Complete                   |
 | Böttinger Wohnung 17                          | Complete                   |
-| Busenfreundin                                 | Until 2024-11-17           |
 | Hotel Matze                                   | Until 2024-11-20           |
 | Out and About                                 | Complete                   |
 | Queer as Berlin                               | Complete                   |
