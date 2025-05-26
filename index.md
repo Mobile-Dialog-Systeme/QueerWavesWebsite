@@ -4,6 +4,23 @@
 
 The data collection a strong emphasis on **ethical and legal safeguards**, especially in handling sensitive personal data. By expanding the diversity of voices in speech technology, Queer Waves contributes to building **fairer and more representative AI systems**.
 
+## 📊 Corpus Statistics
+
+Below you find visual insights into the distribution of gender identities, sexual orientations, speaker age, and episode durations in the Queer Waves corpus.
+
+### Gender Identity Distribution
+![Gender Distribution](assets/img/gender_identification.png)
+
+### Sexual Orientation Distribution
+![Sexual Orientation](assets/img/sexual_orientation.png)
+
+### Age Range of Speakers
+![Age Distribution](assets/img/age_identification.png)
+![Age Distribution](assets/img/age_orientation.png)
+
+### Episode Duration Overview
+![Duration Distribution](assets/img/duration_distribution.png)
+
 ## 🎙️ Podcast and Youtube Sources
 The following podcasts were included in the creation of the Queer Waves corpus. Where noted, only episodes up to a specific date were used. All content was carefully selected for linguistic and identity diversity and features self-identified LGBTQIA+ speakers.
 
