@@ -17,27 +17,27 @@ Below you find visual insights into the distribution of gender identities, sexua
 
   <div style="flex: 0 0 48%;">
     <h4>Gender Identity Distribution</h4>
-    <img src="assets/img/gender_identification" alt="Gender Identification" style="width: 100%;">
+    <img src="assets/img/gender_identification.png" alt="Gender Identification" style="width: 100%;">
   </div>
 
   <div style="flex: 0 0 48%;">
     <h4>Sexual Orientation Distribution</h4>
-    <img src="assets/img/sexual_orientation" alt="Sexual Orientation" style="width: 100%;">
+    <img src="assets/img/sexual_orientation.png" alt="Sexual Orientation" style="width: 100%;">
   </div>
 
   <div style="flex: 0 0 48%; margin-top: 20px;">
     <h4>Age Range of Speakers regarding gender identification</h4>
-    <img src="assets/img/age_identification" alt="Age Distribution" style="width: 100%;">
+    <img src="assets/img/age_identification.png" alt="Age Distribution" style="width: 100%;">
   </div>
 
   <div style="flex: 0 0 48%; margin-top: 20px;">
     <h4>Age Range of Speakers regarding sexual orientation</h4>
-    <img src="assets/img/age_orientation" alt="Age Distribution" style="width: 100%;">
+    <img src="assets/img/age_orientation.png" alt="Age Distribution" style="width: 100%;">
   </div>
 
   <div style="flex: 0 0 48%; margin-top: 20px;">
     <h4>Distribution of amount of material per speaker </h4>
-    <img src="assets/img/duration_distribution" alt="Distribution of amount of material per speaker" style="width: 100%;">
+    <img src="assets/img/duration_distribution.png" alt="Distribution of amount of material per speaker" style="width: 100%;">
   </div>
 
 </div>
