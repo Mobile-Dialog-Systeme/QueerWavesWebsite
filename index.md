@@ -10,7 +10,7 @@ The data collection a strong emphasis on **ethical and legal safeguards**, espec
 
 - **Total Audio**: 335 hours
 - **Speakers**: 400+
-- **Episodes**: XXX
+- **Episodes**: 486
 - **Languages**: German (main)
 
 Below you find visual insights into the distribution of gender identities, sexual orientations, speaker age, and episode durations in the Queer Waves dataset.
