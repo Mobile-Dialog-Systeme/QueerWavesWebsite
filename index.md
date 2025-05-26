@@ -5,14 +5,33 @@
 The data collection a strong emphasis on **ethical and legal safeguards**, especially in handling sensitive personal data. By expanding the diversity of voices in speech technology, Queer Waves contributes to building **fairer and more representative AI systems**.
 
 ## 🎙️ Podcast and Youtube Sources
-The corpus includes over 350 hours of audio from 400+ self-identified LGBTQIA+ speakers, spanning ages from 18 to 86 years from all over Germany and Austria.
+The following podcasts were included in the creation of the Queer Waves corpus. Where noted, only episodes up to a specific date were used. All content was carefully selected for linguistic and identity diversity and features self-identified LGBTQIA+ speakers.
+
+| **Podcast Title**                             | **Selection Status**      |
+|----------------------------------------------|----------------------------|
+| Auf eine Tüte: Der Potcast mit Hengameh      | Complete                   |
+| BBQ – Der Black Brown Queere Podcast         | Complete                   |
+| Bootycall                                     | Complete                   |
+| Böttinger Wohnung 17                          | Complete                   |
+| Busenfreundin                                 | Until 2024-11-17           |
+| Hotel Matze                                   | Until 2024-11-20           |
+| Out and About                                 | Complete                   |
+| Queer as Berlin                               | Complete                   |
+| Queerkram                                     | Until 2024-11-02           |
+| Radiomilch                                    | Complete                   |
+| Reden ist Gold                                | Complete                   |
+| Somewhere Over The Hay Bale                   | Complete                   |
+| SPUTNIK Pride                                 | Until 2024-11-08           |
+| Willkommen im Club                            | Until 2024-11-20           |
+
+> Dates reflect the latest episode included from each feed at the time of corpus extraction.
 
 ## 🔧 Processing Pipeline
-- **Collection**: Curated podcast selection
+- **Collection**: Curated podcast selection using [podcast-dl](https://github.com/lightpohl/podcast-dl)
 - **Preprocessing**: Format conversion and segmentation
 - **Transcription**: OpenAI Whisper
 - **Diarization**: Speaker segmentation (1–4 speakers)
-- **Annotation**: Gendered expressions, community terms
+- **Annotation**: Sexual Orientation, Gender Identity, Age and Region based on self-identification
 - **Validation**: Manual spot checks and metadata curation
 
 ## 📂 Available Data
