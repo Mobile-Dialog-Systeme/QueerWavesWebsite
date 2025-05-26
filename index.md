@@ -4,6 +4,8 @@
 
 The data collection a strong emphasis on **ethical and legal safeguards**, especially in handling sensitive personal data. By expanding the diversity of voices in speech technology, Queer Waves contributes to building **fairer and more representative AI systems**.
 
+ The accompanying paper will be presented at [Interspeech 2025](https://www.interspeech2025.org/home).
+
 ## 📊 Dataset Statistics
 
 - **Total Audio**: 335 hours
