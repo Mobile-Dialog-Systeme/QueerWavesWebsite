@@ -107,7 +107,7 @@ We provide:
 ## 📥 How to Get the Data
 1. Contact us: [ingo.siegert@ovgu.de](mailto:ingo.siegert@ovgu.de)
 2. Describe your academic use case
-3. Sign the [Data Usage Agreement](docs/license.html)
+3. Sign the [Data Usage Agreement](docs/license.md)
 4. Receive access credentials
 
 ## 📄 License
