@@ -6,6 +6,11 @@ The data collection a strong emphasis on **ethical and legal safeguards**, espec
 
 ## 📊 Dataset Statistics
 
+- **Total Audio**: 335 hours
+- **Speakers**: 400+
+- **Episodes**: XXX
+- **Languages**: German (main)
+
 Below you find visual insights into the distribution of gender identities, sexual orientations, speaker age, and episode durations in the Queer Waves dataset.
 
 <div style="display: flex; gap: 2%; flex-wrap: wrap; justify-content: space-between;">
@@ -78,12 +83,6 @@ We provide:
 
 > ⚠️ The full dataset is only available **on request** for non-commercial academic use.
 
-## 📊 Dataset Statistics
-- **Total Audio**: 335 hours
-- **Speakers**: 400+
-- **Episodes**: XXX
-- **Languages**: German (main)
-
 ## 📝 Sample Entry
 ```json
 {
@@ -108,7 +107,7 @@ We provide:
 ## 📥 How to Get the Data
 1. Contact us: [ingo.siegert@ovgu.de](mailto:ingo.siegert@ovgu.de)
 2. Describe your academic use case
-3. Sign the [Data Usage Agreement](license.html)
+3. Sign the [Data Usage Agreement](docs/license.html)
 4. Receive access credentials
 
 ## 📄 License
