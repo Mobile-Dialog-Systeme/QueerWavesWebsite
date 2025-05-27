@@ -118,7 +118,9 @@ We provide:
 - Dataset: Available only under a **research-only usage agreement**
 
 ## 📚 How to Cite
-> Siegert, I., & Mustermann, A. (2025). *Queer German Podcast Corpus (QDPC)*. Zenodo. DOI: 10.5281/zenodo.1234567
+> Siegert, I., Marquenie, J., & Grawunder, S. (2025). Queer Waves: A German Speech Dataset Capturing Gender and Sexual Diversity from Podcasts and YouTube. Interspeech 2025
+> Siegert, I., Marquenie, J., & Grawunder, S. (2025). Queer Waves: A German Speech Dataset Capturing Gender and Sexual Diversity from Podcasts and YouTube. Zenodo 2025
+
 
 ## 👥 Authors
 - **Ingo Siegert** 
