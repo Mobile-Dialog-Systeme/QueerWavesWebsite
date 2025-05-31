@@ -32,7 +32,7 @@ The full dataset is available **on request for non-commercial academic research*
 
 ## 📚 Citation
 
-> Siegert, I., Marquenie, J., & Grawunder, S. (2025). 
+> Siegert, I., Marquenie, J., & Grawunder, S.: Queer Waves: A German Speech Dataset Capturing Gender and Sexual Diversity from Podcasts and YouTube. Interspeech (2025). 
 
 ## 👥 Contributors
 
