@@ -119,7 +119,7 @@ We provide:
 
 ## 📚 How to Cite
 > Siegert, I., Marquenie, J., & Grawunder, S. (2025). Queer Waves: A German Speech Dataset Capturing Gender and Sexual Diversity from Podcasts and YouTube. Interspeech 2025
-> Siegert, I., Marquenie, J., & Grawunder, S. (2025). Queer Waves: A German Speech Dataset Capturing Gender and Sexual Diversity from Podcasts and YouTube. Zenodo 2025
+> Siegert, I., Marquenie, J., & Grawunder, S. (2025). Queer Waves: A German Speech Dataset Capturing Gender and Sexual Diversity from Podcasts and YouTube, Dataset. 10.5281/zenodo.15561004
 
 
 ## 👥 Authors
