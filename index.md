@@ -113,7 +113,20 @@ We provide:
 3. Sign the [Data Usage Agreement](docs/license.md)
 4. Receive access credentials
 
-## 📄 License
+## � Suggest a Podcast
+Do you know of a German-language podcast featuring LGBTQIA+ voices that could enrich the Queer Waves dataset? We welcome suggestions for new podcast sources! Please send us your recommendations with the following information:
+
+[📧 **Suggest a Podcast**](mailto:ingo.siegert@ovgu.de?subject=Podcast%20Suggestion%20for%20Queer%20Waves%20Dataset&body=Dear%20Queer%20Waves%20Team%2C%0A%0AI%20would%20like%20to%20suggest%20a%20podcast%20for%20inclusion%20in%20the%20Queer%20Waves%20dataset%3A%0A%0ATitle%3A%20%0ACurze%20Beschreibung%3A%20%0AWebpage%3A%20%0ARSS-Feed-Link%3A%20%0A%0APlease%20note%3A%20The%20RSS%20feed%20link%20is%20essential%20for%20processing%2C%20as%20podcasts%20cannot%20be%20included%20without%20it.%0A%0ABest%20regards%2C)
+
+**Required Information:**
+- **Title:** The name of the podcast
+- **Brief Description:** Short description of the content and speakers
+- **Webpage:** Official website or platform link
+- **RSS Feed Link:** Direct link to the RSS feed *(essential for processing)*
+
+> ⚠️ **Important**: Without an RSS feed link, podcasts cannot be processed and included in the dataset.
+
+## �📄 License
 - Website & Documentation: **CC BY-NC 4.0**
 - Dataset: Available only under a **research-only usage agreement**
 
