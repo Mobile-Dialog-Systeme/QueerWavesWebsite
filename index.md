@@ -116,7 +116,7 @@ We provide:
 ## � Suggest a Podcast
 Do you know of a German-language podcast featuring LGBTQIA+ voices that could enrich the Queer Waves dataset? We welcome suggestions for new podcast sources! Please send us your recommendations with the following information:
 
-[📧 **Suggest a Podcast**](mailto:ingo.siegert@ovgu.de?subject=Podcast%20Suggestion%20for%20Queer%20Waves%20Dataset&body=Dear%20Queer%20Waves%20Team%2C%0A%0AI%20would%20like%20to%20suggest%20a%20podcast%20for%20inclusion%20in%20the%20Queer%20Waves%20dataset%3A%0A%0ATitle%3A%20%0ACurze%20Beschreibung%3A%20%0AWebpage%3A%20%0ARSS-Feed-Link%3A%20%0A%0APlease%20note%3A%20The%20RSS%20feed%20link%20is%20essential%20for%20processing%2C%20as%20podcasts%20cannot%20be%20included%20without%20it.%0A%0ABest%20regards%2C)
+[📧 **Suggest a Podcast**](mailto:ingo.siegert@ovgu.de?subject=Podcast%20Suggestion%20for%20Queer%20Waves%20Dataset&body=Dear%20Queer%20Waves%20Team%2C%0A%0AI%20would%20like%20to%20suggest%20a%20podcast%20for%20inclusion%20in%20the%20Queer%20Waves%20dataset%3A%0A%0ATitle%3A%20%0AShort%20description%3A%20%0AWebpage%3A%20%0ARSS-Feed-Link%3A%20%0A%0A%0A%0ABest%20regards%2C)
 
 **Required Information:**
 - **Title:** The name of the podcast
