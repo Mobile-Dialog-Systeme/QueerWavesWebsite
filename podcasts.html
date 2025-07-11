@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Podcast Overview - Queer Waves Dataset</title>
+    <link rel="stylesheet" href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            background-color: #fafbfc;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 600;
+        }
+        
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #0366d6;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        
+        .back-link:hover {
+            background-color: #0256cc;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .summary {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        
+        .summary h2 {
+            margin: 0 0 20px 0;
+            color: #24292e;
+            text-align: center;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background: #f6f8fa;
+            border-radius: 8px;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #0366d6;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: #586069;
+            margin-top: 5px;
+        }
+        
+        .podcast-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+        }
+        
+        .podcast-card {
+            background: white;
+            border: 1px solid #e1e4e8;
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .podcast-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        .podcast-card.error {
+            border-color: #d73a49;
+            background: #ffeef0;
+        }
+        
+        .podcast-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .podcast-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 2px solid #e1e4e8;
+            flex-shrink: 0;
+        }
+        
+        .podcast-image.placeholder {
+            background: #6c757d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 11px;
+            text-align: center;
+            padding: 5px;
+        }
+        
+        .podcast-title h3 {
+            margin: 0 0 6px 0;
+            color: #24292e;
+            font-size: 1.25em;
+            line-height: 1.3;
+            font-weight: 600;
+        }
+        
+        .podcast-author {
+            color: #586069;
+            font-size: 0.9em;
+            margin: 0;
+            font-style: italic;
+        }
+        
+        .podcast-description {
+            color: #24292e;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            font-size: 0.95em;
+        }
+        
+        .podcast-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 0.85em;
+        }
+        
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px solid #f6f8fa;
+        }
+        
+        .stat-row:last-child {
+            border-bottom: none;
+        }
+        
+        .stat-row .stat-label {
+            font-weight: 600;
+            color: #586069;
+        }
+        
+        .stat-row .stat-value {
+            color: #24292e;
+            text-align: right;
+        }
+        
+        .error-message {
+            color: #d73a49;
+            font-style: italic;
+            text-align: center;
+            padding: 12px;
+            background: #ffeef0;
+            border: 1px solid #fdaeb7;
+            border-radius: 6px;
+            margin-bottom: 16px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #e1e4e8;
+            color: #586069;
+        }
+        
+        @media (max-width: 768px) {
+            .podcast-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .podcast-stats {
+                grid-template-columns: 1fr;
+            }
+            
+            .podcast-header {
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Queer Waves Dataset</a>
+        
+        <div class="header">
+            <h1>🎙️ Detailed Podcast Overview</h1>
+            <p>Comprehensive information about all podcasts included in the Queer Waves dataset</p>
+        </div>
+        
+        <div class="summary">
+            <h2>📊 Dataset Summary</h2>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">12</span>
+                    <div class="stat-label">Total Podcasts</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1,064</span>
+                    <div class="stat-label">Total Episodes</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">335h</span>
+                    <div class="stat-label">Audio Content</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">400+</span>
+                    <div class="stat-label">LGBTQIA+ Speakers</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="podcast-grid">
+            <!-- Podcast cards will be dynamically generated here -->
+        </div>
+        
+        <div class="footer">
+            <p>Generated as part of the Queer Waves Dataset | <a href="index.html">← Return to Main Page</a></p>
+        </div>
+    </div>
+    
+    <script>
+        // This would normally load podcast data dynamically
+        // For now, it's a placeholder for the static content
+        console.log('Podcast overview page loaded');
+    </script>
+</body>
+</html>

@@ -15,9 +15,11 @@
 
 This repository contains the public GitHub Pages site with:
 - Project description & dataset overview
-- Podcast sources
+- **Detailed podcast overview** with covers, descriptions, and metadata
+- Podcast sources and episode counts
 - Annotation and processing pipeline summary
 - Data access instructions
+- Visual statistics and demographics
 - Sample JSON transcript
 
 ## 📥 Access to the Full Dataset
