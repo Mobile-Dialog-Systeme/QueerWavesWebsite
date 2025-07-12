@@ -49,7 +49,6 @@ Below you find visual insights into the distribution of gender identities, sexua
 ## 🎙️ Podcast and Youtube Sources
 The following podcasts were included in the creation of the Queer Waves dataset. Where noted, only episodes up to a specific date were used. All content was carefully selected for linguistic and identity diversity and features self-identified LGBTQIA+ speakers.
 
-[📄 **View Detailed Podcast Overview**](podcasts.html) - Click here for comprehensive information about all included podcasts including covers, descriptions, episode counts, and more.
 
 | **Podcast Title**                             | **Selection Status**      |
 |----------------------------------------------|----------------------------|
@@ -67,6 +66,8 @@ The following podcasts were included in the creation of the Queer Waves dataset.
 | Willkommen im Club                            | Until 2024-11-20           |
 
 > Dates reflect the latest episode included from each feed at the time of dataset extraction.
+
+[📄 **View Detailed Podcast Overview**](podcasts.html) - Click here for comprehensive information about all included podcasts including covers, descriptions, episode counts, and more.
 
 ## 🔧 Processing Pipeline
 - **Collection**: Curated podcast selection using [podcast-dl](https://github.com/lightpohl/podcast-dl)
