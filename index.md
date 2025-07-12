@@ -53,15 +53,14 @@ The following podcasts were included in the creation of the Queer Waves dataset.
 
 | **Podcast Title**                             | **Selection Status**      |
 |----------------------------------------------|----------------------------|
-| Auf eine Tüte: Der Potcast mit Hengameh      | Complete                   |
+| Auf eine Tüte                                | Complete                   |
 | BBQ – Der Black Brown Queere Podcast         | Complete                   |
-| Bootycall                                     | Complete                   |
+| 030 Bootycall                                 | Until 2024-08-28           |
 | Böttinger Wohnung 17                          | Complete                   |
 | Hotel Matze                                   | Until 2024-11-20           |
 | Out and About                                 | Complete                   |
 | Queer as Berlin                               | Complete                   |
-| Queerkram                                     | Until 2024-11-02           |
-| Radiomilch                                    | Complete                   |
+| Queerkram                                     | Complete           |
 | Reden ist Gold                                | Complete                   |
 | Somewhere Over The Hay Bale                   | Complete                   |
 | SPUTNIK Pride                                 | Until 2024-11-08           |
